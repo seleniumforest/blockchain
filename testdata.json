@@ -1,0 +1,14 @@
+[
+    {
+        "inputs": [{"from": "vasya", "amount": 50}, {"from": "gleb", "amount": 50}],
+        "outputs": [{"to": "petya", "amount": 10}, {"to": "myself", "amount": 90}]
+    },
+    {
+        "inputs": [{"from": "dynch", "amount": 100}],
+        "outputs": [{"to": "max", "amount": 10}, {"to": "alpaca", "amount": 10}, {"to": "myself", "amount": 80}]
+    },
+    {
+        "inputs": [{"from": "invalid transaction", "amount": 100}],
+        "outputs": [{"to": "inputs.sum != outputs.sum", "amount": 10}]
+    }
+]
